@@ -1,0 +1,102 @@
+/**
+ * Common styles
+ *
+ */
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+// .margin-bottom-15
+
+#errors-list {
+  ul {
+    padding-left: 20px;
+  }
+  // ul
+}
+// #errors-list
+
+body {
+  .wrapper {
+    .content-wrapper {
+      .content {
+        .box {
+          .dataTables_wrapper {
+            table {
+              tbody {
+                tr {
+                  td {
+                    &:last-child {
+                      .form-delete {
+                        display: inline-block;
+                      }
+                      // .form-delete
+                    }
+                    // &:last-child
+                  }
+                  // td
+                }
+                // tr
+              }
+              // tbody
+            }
+            // table
+          }
+          // .dataTables_wrapper
+        }
+        // .box
+      }
+      // .content
+    }
+    // .content-wrapper
+  }
+  // .wrapper
+
+  &.admin {
+    &.roles_permissions {
+      &.index {
+        .wrapper {
+          .content-wrapper {
+            .content {
+              .box {
+                .box-body {
+                  form {
+                    .form-group {
+                      margin-bottom: 0;
+
+                      .checkbox {
+                        label {
+                          label {
+                            padding-left: 0;
+                          }
+                          // label
+                        }
+                        // label
+                      }
+                      // .checkbox
+
+                      &:last-child {
+                        margin-top: 15px;
+                      }
+                      // &:last-child
+                    }
+                    // .form-group
+                  }
+                  // form
+                }
+                // .box-body
+              }
+              // .box
+            }
+            // .content
+          }
+          // .content-wrapper
+        }
+        // .wrapper
+      }
+      // &.index
+    }
+    // &.roles_permissions
+  }
+  // &.admin
+}
+// body

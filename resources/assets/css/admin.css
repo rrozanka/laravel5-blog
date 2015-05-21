@@ -1,0 +1,21 @@
+/**
+ * Common styles
+ *
+ */
+.margin-bottom-15 {
+  margin-bottom: 15px; }
+
+#errors-list ul {
+  padding-left: 20px; }
+
+body .wrapper .content-wrapper .content .box .dataTables_wrapper table tbody tr td:last-child .form-delete {
+  display: inline-block; }
+body.admin.roles_permissions.index .wrapper .content-wrapper .content .box .box-body form .form-group {
+  margin-bottom: 0; }
+  body.admin.roles_permissions.index .wrapper .content-wrapper .content .box .box-body form .form-group .checkbox label label {
+    padding-left: 0; }
+  body.admin.roles_permissions.index .wrapper .content-wrapper .content .box .box-body form .form-group:last-child {
+    margin-top: 15px; }
+
+
+/*# sourceMappingURL=admin.css.map */
